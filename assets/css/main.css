@@ -575,24 +575,13 @@
 
 /* Icon */
 
-	.icon {
+	.iconsM {
+		list-style-type: none;
+		display: flex;
 		text-decoration: none;
-		border-bottom: none;
-		position: relative;
+		justify-content: space-evenly;
 	}
 
-		.icon:before {
-			-moz-osx-font-smoothing: grayscale;
-			-webkit-font-smoothing: antialiased;
-			font-family: FontAwesome;
-			font-style: normal;
-			font-weight: normal;
-			text-transform: none !important;
-		}
-
-		.icon > .label {
-			display: none;
-		}
 
 /* Image */
 
@@ -1606,4 +1595,33 @@
 		body.is-loading #footer {
 			opacity: 0;
 		}
+		#icon-twitter{
+			background-image: url(/images/twitter.png);
+			background-repeat: no-repeat;
+			background-size: 30px 30px;
+			width: 50px;
+			height: 50px;
+	   }
+	   #icon-instagram{
+		background-image: url(/images/instagram.png);
+		background-repeat: no-repeat;
+		background-size: 40px 40px;
+		width: 50px;
+		height: 50px;
+   }
+   #icon-github{
+	background-image: url(/images/github.png);
+	background-repeat: no-repeat;
+	background-size: 40px 40px;
+	width: 50px;
+	height: 50px;
+}
+#icon-facebook{
+	background-image: url(/images/facebook.png);
+	background-repeat: no-repeat;
+	background-size: 25px 25px;
+	width: 50px;
+	height: 50px;
+}
+	
 
